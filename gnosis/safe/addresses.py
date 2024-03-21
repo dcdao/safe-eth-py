@@ -551,14 +551,24 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
             "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA",
             491175,
             "1.3.0+L2",
-        )
+        ),
+        (
+            "0x69f4D1788e39c87893C980c06EdF4b7f686e2938",
+            491178,
+            "1.3.0",
+        ),
     ],
     EthereumNetwork.CRAB_NETWORK: [
         (
             "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA",
             739900,
             "1.3.0+L2",
-        )
+        ),
+        (
+            "0x69f4D1788e39c87893C980c06EdF4b7f686e2938",
+            739902,
+            "1.3.0",
+        ),
     ],
     EthereumNetwork.ZORA: [
         (
@@ -1219,13 +1229,17 @@ PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
         (
             "0xC22834581EbC8527d974F8a1c97E1bEA4EF910BC",
             491157,
-        )
+        ),
+        (
+            "0x023753AEE29350a7c718955e98D3f55A2B4E81E8",
+            210891,
+        ),
     ],
     EthereumNetwork.CRAB_NETWORK: [
         (
             "0xC22834581EbC8527d974F8a1c97E1bEA4EF910BC",
             739882,
-        )
+        ),
     ],
     EthereumNetwork.ZORA: [
         (
